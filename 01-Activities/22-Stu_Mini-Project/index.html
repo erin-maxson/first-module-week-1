@@ -10,7 +10,7 @@
 
 <br>
 
-<nav>
+<nav class="sticky">
     <li>HOME</li>
     <li>SIGN IN</li>
     <li>RETURNING VISITORS</li>
@@ -27,14 +27,19 @@
     <div class="content">
         <!-- Page content -->
          <figure>
-             <img src="https://statics.esputnik.com/photos/shares/Blog/blogs/welcome.png" alt="A dog holds a welcome sign in his mouth" class="center">
+             <img class="center" src="https://statics.esputnik.com/photos/shares/Blog/blogs/welcome.png" alt="A dog holds a welcome sign in his mouth">
          </figure>
 
 <figure>
-    <h2>Please fill in your contact information below.</h2><br>
-    <form>
-      <p>Name</p> <input type="text"><br>
-       <p>Email</p> <input type="text"><br><br>
+    <h2>Please fill in your contact information below.</h2>
+    
+    <br>
+
+    <form class="center form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br>
+        <label for="email">Email</label>
+        <input type="text" id="email"><br><br>
        <input type="submit">
     </form>
 </figure>
