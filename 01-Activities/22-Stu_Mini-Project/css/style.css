@@ -27,3 +27,8 @@ li {
     padding: 10px;
     color: white;
 }
+
+.content {
+    max-width: 800px;
+    margin: auto;
+  }
