@@ -11,6 +11,5 @@ img {
   background-color: lightblue;
   margin: 10px;
   padding: 20px;
-  border: 100px; 
-  border-color: darkblue;
+  border: 10px solid darkblue;
 }
