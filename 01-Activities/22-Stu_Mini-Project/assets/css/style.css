@@ -38,6 +38,10 @@ h2 {
     text-align: center;
 }
 
+ul {
+    background-color: darkblue;
+}
+
 /* List Formatting (Nav List) */
 header nav ul li {
     /* List displays inline */
@@ -45,7 +49,7 @@ header nav ul li {
     /* List background color is Dark Blue */
     background-color: darkblue;
     /* List margin is 10px */
-    margin-left: 10px;
+    margin-left: 5px;
     /* List font color is white */
     color: white;
 }
@@ -62,7 +66,7 @@ header nav ul li {
 
 /* Nav width is 100% of webpage */
 .header {
-  padding: 0px -20px;
+  padding: 0px;
   margin-left: -8px;
   background: darkblue;
 }
