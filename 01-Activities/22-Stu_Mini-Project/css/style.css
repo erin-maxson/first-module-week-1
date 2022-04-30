@@ -4,6 +4,13 @@
     display:block;
 }
 
-#inline {
+title {
+    display: none;
+}
+
+li {
     display: inline;
+    background-color: darkblue;
+    padding: 10px;
+    color: white;
 }
