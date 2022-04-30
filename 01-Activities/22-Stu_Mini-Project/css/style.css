@@ -8,6 +8,10 @@ title {
     display: none;
 }
 
+nav {
+    text-align: center;
+}
+
 h1 {
     color: darkcyan;
     text-align: center;
@@ -26,6 +30,10 @@ li {
     background-color: darkblue;
     padding: 10px;
     color: white;
+}
+
+.welcome-img {
+    align-self: center;
 }
 
 .content {
