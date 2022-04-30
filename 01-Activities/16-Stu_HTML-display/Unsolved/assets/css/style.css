@@ -14,7 +14,7 @@ ul {
 
 /* List items in navigation bar */
 li {
- display: inline
+ display: inline;
   list-style-type: none;
   font-size: 40px;
 }
