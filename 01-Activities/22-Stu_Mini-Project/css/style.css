@@ -4,3 +4,8 @@
     position: relative;
     display:block;
 }
+
+#inline {
+    display: inline;
+
+}
