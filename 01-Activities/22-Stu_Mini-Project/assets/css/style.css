@@ -1,42 +1,70 @@
+/* Universal Formatting: Background Color, Font Family */
 * {
+   /* Webpage background color - Light Cyan */
     background-color: lightcyan;
+    /* Universal Font Family of Arial, Helvetica, sans-serif */
     font-family: Arial, Helvetica, sans-serif;
-    align-content: center;
 }
 
+/* Title Display */
 title {
+    /* Removes title from frontend viewing */
     display: none;
-    background-color: darkblue;
 }
 
-nav {
+/* Navigation Formatting  */
+header {
+    /* Aligns Header to right side of page */
     text-align: right;
 }
 
+/* h1 Formatting */
 h1 {
+    /* h1 Font Color: Dark Cyan */
     color: darkcyan;
+    /* h1 Text Aligns to center */
     text-align: center;
 }
 
+/* Paragraph Formatting */
 p {
+    /* Paragraph text aligns to center */
     text-align: center;
 }
 
+/* h2 Formatting */
 h2 {
+    /* h2 text aligns to center */
     text-align: center;
 }
 
-li {
+/* List Formatting (Nav List) */
+header nav ul li {
+    /* List displays inline */
     display: inline;
+    /* List background color is Dark Blue */
     background-color: darkblue;
-    padding: 10px;
+    /* List margin is 10px */
+    margin-left: 10px;
+    /* List font color is white */
     color: white;
 }
 
+/* Nav class sticky formatting */
 .sticky {
+    /* Nav position is fixed */
     position: fixed;
-    top: 0;
+    /* Nav position is 0px from top */
+    top: 0px;
+    /* Nav width is 100% of webpage */
     width: 100%;
+}
+
+/* Nav width is 100% of webpage */
+.header {
+  padding: 0px -20px;
+  margin-left: -8px;
+  background: darkblue;
 }
 
 .center {
@@ -52,6 +80,6 @@ li {
     padding: 16px;
   }
 
-  .form-field {
-
-  }
+.sticky + .content {
+    padding-top: 100px;
+}
