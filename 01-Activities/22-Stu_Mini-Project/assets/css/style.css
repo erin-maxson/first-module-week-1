@@ -54,6 +54,14 @@ header nav ul li {
     color: white;
 }
 
+/* Footer formatting */
+footer article p {
+    background-color: darkblue;
+    color: white;
+    margin-left: -8px;
+    padding: 10px;
+}
+
 /* Nav class sticky formatting */
 .sticky {
     /* Nav position is fixed */
@@ -71,6 +79,11 @@ header nav ul li {
   background: darkblue;
 }
 
+.puppers {
+    display: inline;
+}
+
+/* Centering form information */
 .center {
     display: block;
     margin-left: auto;
@@ -78,12 +91,14 @@ header nav ul li {
     width: 20%;
 }
 
+/* Centering all webpage information */
 .content {
     max-width: 800px;
     margin: auto;
     padding: 16px;
   }
 
+  /* Ensuring header nav stays sticky over content scroll */
 .sticky + .content {
     padding-top: 100px;
 }
