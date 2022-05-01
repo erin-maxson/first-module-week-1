@@ -26,14 +26,8 @@ h1 {
     text-align: center;
 }
 
-/* Paragraph Formatting */
-p {
-    /* Paragraph text aligns to center */
-    text-align: center;
-}
-
-/* h2 Formatting */
-h2 {
+/* h2, h3, p Formatting */
+h2, h3, p {
     /* h2 text aligns to center */
     text-align: center;
 }
@@ -79,10 +73,6 @@ footer article p {
   background: darkblue;
 }
 
-.puppers {
-    display: inline;
-}
-
 /* Centering form information */
 .center {
     display: block;
@@ -101,4 +91,12 @@ footer article p {
   /* Ensuring header nav stays sticky over content scroll */
 .sticky + .content {
     padding-top: 100px;
+}
+
+#Rory, #Asta, #Charlie {
+    display: inline;
+    max-width: 100px;
+    max-height: 300px;
+    padding: 10px;
+    border: 10px solid darkblue;
 }
